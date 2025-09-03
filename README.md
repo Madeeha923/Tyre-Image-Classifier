@@ -1,4 +1,4 @@
-Tyre Quality Classification using PyTorch
+# Tyre Quality Classification using PyTorch
 This project explores the classification of digital images of vehicle tyres into 'good' and 'defective' categories using deep learning. Two different approaches were implemented and analyzed using the PyTorch framework:
 
 A Simple Convolutional Neural Network (CNN) built from scratch.
@@ -7,7 +7,7 @@ Transfer Learning using a pre-trained ResNet-50 model.
 
 The primary goal was to compare the effectiveness of these two methods and demonstrate key techniques for training and optimizing deep learning models for image classification.
 
-Dataset
+## Dataset
 The dataset consists of digital images of tyres, organized into two class folders:
 
 /good/: Images of tyres in good condition.
@@ -16,7 +16,7 @@ The dataset consists of digital images of tyres, organized into two class folder
 
 A standard split was used to create training and validation sets to properly train and evaluate the models.
 
-Models & Methodology
+ ## Models & Methodology
 1. Simple Convolutional Neural Network (CNN)
 A basic CNN architecture was designed and trained from scratch. The model consisted of several convolutional blocks followed by fully connected layers for classification.
 
@@ -29,7 +29,7 @@ Standard Training Loop: The model was trained for a set number of epochs using a
 2. Transfer Learning with ResNet-50
 To leverage the power of pre-trained models, a ResNet-50 architecture, pre-trained on the large-scale ImageNet dataset, was adapted for this task. The final classification layer of the ResNet-50 was replaced with a new layer suited for our binary classification problem.
 
-Key Techniques:
+ ## Key Techniques:
 
 Fine-Tuning: Initially, only the weights of the new classification layer were trained. Subsequently, more layers of the network can be "unfrozen" and trained with a lower learning rate.
 
@@ -91,7 +91,7 @@ Val Accuracy
 
 0.6496
 
-Analysis:
+## Analysis:
 
 The model's performance peaked at Epoch 3, achieving ~74% validation accuracy.
 
