@@ -59,6 +59,7 @@ Val Accuracy
 
 0.6388
 
+<<<<<<< Updated upstream
 2
 
 0.5345
@@ -185,4 +186,6 @@ Analysis:
 The transfer learning model achieved a much higher validation accuracy, peaking above 92%.
 
 Early stopping successfully identified that the model's best performance was at Epoch 4 and stopped the training at Epoch 7, preventing the model from degrading due to overfitting.
+# Conclusion
+This project effectively demonstrates the power of transfer learning. The pre-trained ResNet-50 model yielded a more accurate and stable result, in stark contrast to the simple CNN, showcasing a clear advantage for leveraging established architectures in image classification.
 
