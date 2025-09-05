@@ -83,5 +83,5 @@ Transfer learning yielded **much better and stable results**, with **early stopp
 
 ##  Conclusion  
 
-Transfer learning with **ResNet-50** clearly outperformed the simple CNN, showing the effectiveness of pre-trained models in image classification tasks.  
+This project effectively demonstrates the power of transfer learning. The pre-trained ResNet-50 model yielded a more accurate and stable result, in stark contrast to the simple CNN, showcasing a clear advantage for leveraging established architectures in image classification.  
 
